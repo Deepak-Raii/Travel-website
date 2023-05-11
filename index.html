@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAzz Travels</title>
+</head>
+
+<link rel="stylesheet" href="./css.css">
+
+<body>
+    <navbar class="navbar">
+        <h1 class="logo">ZAzz</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class=""><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./image/icons8-menu-100.png" alt="" class="menu-btn">
+    </navbar>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="./image/man-enjoying-rural-surroundings.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia assumenda labore culpa dolores
+                    tenetur ratione cupiditate exercitationem autem sapiente. Molestias, sunt ex dolore quod corporis
+                    quisquam expedita repellendus asperiores?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./image/woman-with-camera-world-photographer-day.jpg" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia assumenda labore culpa dolores
+                    tenetur ratione cupiditate exercitationem autem sapiente. Molestias, sunt ex dolore quod corporis
+                    quisquam expedita repellendus asperiores?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos voluptatibus quisquam commodi libero sed
+                reprehenderit, quis consequatur magnam, perspiciatis totam amet rerum quae consequuntur vitae facilis?
+                Molestiae voluptatem sit pariatur?</p>
+
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam ducimus voluptate, quasi vitae,
+                    incidunt consectetur excepturi quos hic, laboriosam magnam neque tempora id magni provident
+                    mollitia? Optio quo aspernatur fuga!</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            <div class="col image-col">
+                <div class="image-gallary">
+                    <img src="./image//joshua-earle-p2TQ-3Bh3Oo-unsplash.jpg" alt="">
+                    <img src="./image/joshua-earle-wFWQmOyfkkM-unsplash.jpg" alt="">
+                    <img src="./image/matheus-ferrero-TkrRvwxjb_8-unsplash.jpg" alt="">
+                    <img src="./image//tobias-mrzyk-iuqmGmst5Po-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+            <p>Govindpuri Gali No. 10, Okhla Phase-1, Delhi, INDIA | Phone: 123-456-7890 | Email: ZazzTravel@gmail.com</p>
+            <p>Copyright © 2023 Outdoor Adventure</p>
+    </section>
+
+</body>
+<script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const navlinks = document.querySelector('.nav-links');
+    menuBtn.addEventListener('click', () => {
+        navlinks.classList.toggle('mobile-menu');
+    })
+</script>
+
+</html>
